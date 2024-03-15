@@ -15,3 +15,9 @@ A calculadora apresenta varias funções, como somar,diminuir,multiplicar e divi
 implementei também funções como o "D" para apagar o digito inserido 
 
 e a função do bloco de neve que apaga todos os numeros inseridos e limpa a tela 
+
+É recomendado que instale a versão .exe pois isso descarta a instalação de bibliotecas externas 
+
+Link do arquivo .exe:
+
+https://www.mediafire.com/file/79hqt3rl86bvda1/Calculadora.exe/file
