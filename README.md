@@ -11,3 +11,7 @@ Está e uma captura de tela da calculadora  :
 para rodar o codigo deverá instalar a biblioteca flet 
 
 A calculadora apresenta varias funções, como somar,diminuir,multiplicar e dividir 
+
+implementei também funções como o "D" para apagar o digito inserido 
+
+e a função do bloco de neve que apaga todos os numeros inseridos e limpa a tela 
