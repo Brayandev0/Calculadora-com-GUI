@@ -14,6 +14,9 @@ A calculadora apresenta varias funções, como somar,diminuir,multiplicar e divi
 
 implementei também funções como o "D" para apagar o digito inserido 
 
+implementei também medidas de prevenção a injeção de codigo 
+tornando o programa mais seguro 
+
 e a função do bloco de neve que apaga todos os numeros inseridos e limpa a tela 
 
 É recomendado que instale a versão .exe pois isso descarta a instalação de bibliotecas externas 
