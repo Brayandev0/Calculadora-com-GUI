@@ -20,4 +20,4 @@ e a função do bloco de neve que apaga todos os numeros inseridos e limpa a tel
 
 Link do arquivo .exe:
 
-https://www.mediafire.com/file/79hqt3rl86bvda1/Calculadora.exe/file
+https://www.mediafire.com/file/lr0g64ojpegd1ny/Calculadora.exe/file
