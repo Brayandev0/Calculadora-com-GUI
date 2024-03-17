@@ -11,6 +11,9 @@ Está e uma captura de tela da calculadora  :
 Adicionei Também tratamento de erro caso o usuario tente realizar calculos inválidos 
 como somas impossiveis como 0001 + 2
 ou Divisões por 0 
+implementei a biblioteca time e esse erro ira ficar visível por 3 segundos e ira automaticamente sumir 
+reiniciando assim os valores inseridos 
+
 
 tela de erro :
 
