@@ -9,7 +9,9 @@ Está e uma captura de tela da calculadora  :
 ![Captura de tela 2024-03-15 115553](https://github.com/Brayandev0/Calculadora-com-interface-Gr-fica/assets/84828739/f0ba920d-575a-4a5b-81d6-b309e7c151ab)
 
 Adicionei Também tratamento de erro caso o usuario tente realizar calculos inválidos 
-como somas impossiveis como 0001 + 2 ou Divisões por 0 
+como somas impossiveis como 0001 + 2
+ou Divisões por 0 
+
 tela de erro :
 
 
