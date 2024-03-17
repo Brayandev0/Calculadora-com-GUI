@@ -22,7 +22,7 @@ tela de erro :
 
 
 
-para rodar o codigo deverá instalar a biblioteca flet 
+para rodar o codigo deverá instalar a biblioteca flet e a biblioteca time 
 
 A calculadora apresenta varias funções, como somar,diminuir,multiplicar e dividir 
 
