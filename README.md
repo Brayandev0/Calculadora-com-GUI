@@ -1,39 +1,46 @@
-# Calculadora-com-interface-Gráfica
-Uma calculadora completa, em .exe, feita em python
+]![Calculadora principal](https://github.com/Brayandev0/Calculadora-com-GUI/assets/84828739/a8288e92-7efe-4793-88a1-e25b07d2a85c)
 
-A calculadora foi feita com a ferramenta flet
-irei disponibilizar o codigo e a versão .exe para execução no windows 
+Utilizei a biblioteca PyQt6 para criar a minha calculadora
+coloquei diversos tipos de operações como : potenciação, divisão,multiplicação,soma,subtração,operações com numeros decimais 
 
-Está e uma captura de tela da calculadora  :
+coloquei também funções para remover totalmente os dados na tela ( C ) 
+e função para remover o ultimo numero digitado ( D )
 
-![Captura de tela 2024-03-15 115553](https://github.com/Brayandev0/Calculadora-com-interface-Gr-fica/assets/84828739/f0ba920d-575a-4a5b-81d6-b309e7c151ab)
+coloquei também um menu de opções para facilitar o uso 
 
-Adicionei Também tratamento de erro caso o usuario tente realizar calculos inválidos 
-como somas impossiveis como 0001 + 2
-ou Divisões por 0 
-implementei a biblioteca time e esse erro ira ficar visível por 3 segundos e ira automaticamente sumir 
-reiniciando assim os valores inseridos 
+![menu ](https://github.com/Brayandev0/Calculadora-com-GUI/assets/84828739/ad24544e-2059-46a7-afa7-a24c6396014a)
 
+coloquei diversos atalhos no teclado para facilitar a interação do usuario 
 
-tela de erro :
+![atalho de teclas](https://github.com/Brayandev0/Calculadora-com-GUI/assets/84828739/0e22c90e-c511-4acc-9254-318bd54e364a)
 
+configurei pop ups de erros na calculadora para informar ao usuario erros no calculo 
 
-![image](https://github.com/Brayandev0/Calculadora-com-interface-Grafica/assets/84828739/67a9d6b3-bcf5-47d2-92c2-2db2aa78244f)
+erros :
 
 
+Caso o usuario tente realizar uma divisão por zero :
 
-para rodar o codigo deverá instalar a biblioteca flet e a biblioteca time 
+![erro_divisao_0](https://github.com/Brayandev0/Calculadora-com-GUI/assets/84828739/452c42ac-d190-40e9-99e1-69da5b6db025)
 
-A calculadora apresenta varias funções, como somar,diminuir,multiplicar e dividir 
+Caso o usuario tente realizar uma potenciação muita grande, para evitar danos ao computador o python retorna um erro por padrão 
+eu criei um pop up para este erro :
 
-implementei também funções como o "D" para apagar o digito inserido
+![erro potenciação](https://github.com/Brayandev0/Calculadora-com-GUI/assets/84828739/fde04e75-bf85-4acd-b2c0-f761deac5131)
 
-implementei também medidas de segurança para a prevenção de injeção de codigo 
+Caso o usuario tente inserir operados sem ter nenhum numero inserido retornara um erro :
+( menos o operador - )
 
-e a função do bloco de neve que apaga todos os numeros inseridos e limpa a tela 
+![erro_insira_um_numero](https://github.com/Brayandev0/Calculadora-com-GUI/assets/84828739/11a3c6f6-0f0d-4f10-b7c7-ea3245b94114)
 
-É recomendado que instale a versão .exe pois isso descarta a instalação de bibliotecas externas 
+Caso o úsuario insira algum calculo invalido será retornado um erro especifico :
 
-Link do arquivo .exe:
+![calculo_invalido](https://github.com/Brayandev0/Calculadora-com-GUI/assets/84828739/39df4db9-a55d-4cde-8bf9-930e772fbb91)
 
-https://www.mediafire.com/file/lr0g64ojpegd1ny/Calculadora.exe/file
+
+limitei também a adição de operadores, para impedir o usuario de inserir varios operadores seguidos ex : ++++
+
+limitei também a entrada de teclas do teclado, impossibilitando injeções de código 
+apenas as teclas do atalho serão adicionadas
+
+limitei o display para somente leitura de dados 
