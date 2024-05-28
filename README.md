@@ -1,4 +1,4 @@
-]![Calculadora principal](https://github.com/Brayandev0/Calculadora-com-GUI/assets/84828739/a8288e92-7efe-4793-88a1-e25b07d2a85c)
+![Calculadora principal](https://github.com/Brayandev0/Calculadora-com-GUI/assets/84828739/a8288e92-7efe-4793-88a1-e25b07d2a85c)
 
 Utilizei a biblioteca PyQt6 para criar a minha calculadora
 coloquei diversos tipos de operações como : potenciação, divisão,multiplicação,soma,subtração,operações com numeros decimais 
