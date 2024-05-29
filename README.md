@@ -46,3 +46,7 @@ Outras melhorias:
 Limitei a adição de operadores para impedir inserções como "++++".
 Restrição de teclas do teclado para evitar injeções de código, permitindo apenas atalhos específicos.
 O display foi configurado para ser somente leitura.
+
+Link da calculadora executavel em windows : 
+
+https://www.mediafire.com/folder/vsog1czc1gwsx/Calculadora
